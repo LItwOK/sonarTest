@@ -1,0 +1,5 @@
+1、运行npminstall.bat，将nodejs脚本依赖库安装上
+2、根据实际路径和邮箱配置configs文件夹下的文件
+3、根据实际路径配置sonar-project.properties（最好使用绝对路径，相对路径测试了很久，结果有点奇怪）
+4、修改source\SolutionConfig\SolutionCMakeConfig.json文件，一般只编译release；
+5、运行Start.bat开启服务
